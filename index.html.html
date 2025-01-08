@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varela & Fernández Abogados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header img {
+            width: 150px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h2 {
+            text-align: center;
+        }
+        .team, .services, .contact, .resources, .founders, .locations {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .team-member, .service, .contact-item, .resource-item, .founder, .location {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+            background: #ffffff;
+        }
+        .team-member img, .founder img, .resource-item img, .location img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .team-member video, .founder video, .main-video {
+            width: 100%;
+            max-width: 320px;
+            border-radius: 10px;
+            margin: 0 auto;
+            display: block;
+        }
+        footer {
+            background: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .highlight {
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: 30px;
+            font-style: italic;
+            color: #004080;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            text-decoration: none;
+            background: #004080;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .cta a:hover {
+            background: #003060;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo oficina.png" alt="Logo Varela & Fernández Abogados">
+        <h1>Varela & Fernández Abogados</h1>
+        <p><strong>CON TU PENSIÓN NO SE JUEGA</strong></p>
+    </header>
+
+    <section>
+        <h2>Misión</h2>
+        <p>Brindar asesoría jurídica especializada en pensiones y seguridad social, ofreciendo soluciones personalizadas y efectivas que garanticen los derechos de nuestros clientes con compromiso, ética y excelencia.</p>
+    </section>
+
+    <section>
+        <h2>Visión</h2>
+        <p>Ser reconocidos como una firma de abogados líder en Colombia, destacándonos por nuestra experiencia en el área de pensiones y seguridad social, así como por nuestro impacto positivo en la vida de las personas y la sociedad.</p>
+    </section>
+
+    <section>
+        <h2>Nuestro Equipo</h2>
+        <p class="highlight">Gracias a nuestro equipo, más de 600 personas ahora disfrutan de una pensión digna.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="Juan Pablo.png" alt="Juan Pablo Varela García">
+                <h3>Juan Pablo Varela García</h3>
+                <p>Director Jurídico, abogado especialista en derecho administrativo y pensiones. Cofundador de Varela & Fernández Abogados.</p>
+            </div>
+            <div class="team-member">
+                <img src="Alejandra.png" alt="Alejandra García Fernández">
+                <h3>Alejandra García Fernández</h3>
+                <p>Gerente, abogada especialista en seguridad social y pensiones. Cofundadora de Varela & Fernández Abogados.</p>
+            </div>
+            <div class="team-member">
+                <img src="Claudia.png" alt="Claudia Patricia Fernández Gómez">
+                <h3>Claudia Patricia Fernández Gómez</h3>
+                <p>Abogada asociada, especialista en derecho constitucional y administrativo. Adscrita a la oficina de Cali.</p>
+            </div>
+            <div class="team-member">
+                <img src="Laura.png" alt="Laura Orrego Valencia">
+                <h3>Laura Orrego Valencia</h3>
+                <p>Abogada experta en pensiones y seguridad social, con énfasis en derecho médico. Adscrita a la seccional Palmira.</p>
+            </div>
+            <div class="team-member">
+                <img src="Liceth.png" alt="Yara Liceth Imbacuán">
+                <h3>Yara Liceth Imbacuán</h3>
+                <p>Abogada con énfasis en derecho de familia. Adscrita a la seccional Cali.</p>
+            </div>
+            <div class="team-member">
+                <img src="Juan Camilo.png" alt="Juan Camilo Ortiz">
+                <h3>Juan Camilo Ortiz</h3>
+                <p>Asistente jurídico y administrativo, estudiante de derecho. Adscrito a la seccional Cali.</p>
+            </div>
+            <div class="team-member">
+                <img src="Cristina.png" alt="María Cristina Olaya Duque">
+                <h3>María Cristina Olaya Duque</h3>
+                <p>Apoyo en operaciones administrativas. Adscrita a la seccional Palmira.</p>
+            </div>
+        </div>
+        <video class="main-video" controls>
+            <source src="nuestro equipo.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+    </section>
+
+    <section>
+        <h2>Recursos Humanos</h2>
+        <p>Conferencias de bienestar psicológico para el fortalecimiento de nuestro equipo.</p>
+                    </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Cofundadores</h2>
+        <div class="founders">
+            <div class="founder">
+                <img src="juanyaleja.png" alt="juanyaleja">
+                <p>Juan Pablo Varela García y Alejandra García Fernández fundaron Varela & Fernández Abogados con la misión de garantizar justicia y estabilidad en el área de pensiones y seguridad social. Su visión es transformar vidas y ser referentes en el ámbito jurídico nacional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Sedes</h2>
+        <div class="locations">
+            <div class="location">
+                <img src="Sede Cali.png" alt="Sede Cali">
+                <p>Avenida 6 Norte No. 21n-22, Cali.</p>
+            </div>
+            <div class="location">
+                <img src="Sede Palmira.png" alt="Sede Palmira">
+                <p>Carrera 28 No. 32a-147, frente al parque de la Factoría, Palmira.</p>
+            </div>
+            <div class="location">
+                <img src="Sede Santa Elena.png" alt="Sede Santa Elena">
+                <p>Carrera 4 No. 3-73, Santa Elena.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Haz un comentario</h2>
+        <p class="cta"><a href="mailto:varelafernandezabogados@gmail.com">Enviar un correo electrónico</a></p>
+    </section>
+
+    <section>
+        <h2>Video de Navidad</h2>
+        <video class="main-video" controls>
+            <source src="navidad 2024.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Varela & Fernández Abogados. Todos los derechos reservados.</p>
+        <p>Contáctanos: Palmira (602) 2836410 | WhatsApp <a href="https://wa.me/3162904682" target="_blank">3162904682</a> | Cali: <a href="https://wa.me/3187982100" target="_blank">3187982100</a></p>
+        <p>Correo: <a href="mailto:varelafernandezabogados@gmail.com">varelafernandezabogados@gmail.com</a></p>
+        <p><a href="https://www.instagram.com/varelafernandezabogados/?hl=es-la" target="_blank">Instagram</a> | <a href="https://www.facebook.com/VarelaFernandezAbogados/?locale=es_LA" target="_blank">Facebook</a></p>
+    </footer>
+</body>
+</html>
+
+
